@@ -8,9 +8,9 @@
 
 
 var syhmhz = new Array();
-for (var i = 0; i < $x("//a[@class='yt-simple-endpoint style-scope ytd-playlist-video-renderer']").length; i++) 
+for (var i = 0; i < $x("//a[@class='yt-simple-endpoint inline-block style-scope ytd-thumbnail']").length; i++) 
 {
-  syhmhz.push($x("//a[@class='yt-simple-endpoint style-scope ytd-playlist-video-renderer']")[i].getAttribute('href'));
+  syhmhz.push($x("//a[@class='yt-simple-endpoint inline-block style-scope ytd-thumbnail']")[i].getAttribute('href'));
 }
  for (var j = 0; j < syhmhz.length; j++) 
 {
